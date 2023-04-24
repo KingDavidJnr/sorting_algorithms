@@ -2,10 +2,11 @@
 
 /**
  * swapme - swapping the nodes themselves.
- * @current: New pointer.
- * @current_old: Old pointer.
+ * @current: The New pointer.
+ * @current_old: The Old pointer.
  * @list: The doubly linked list
  */
+
 void swapme(listint_t *current, listint_t *current_old, listint_t **list)
 {
 	listint_t *temp1 = current->next;
@@ -25,10 +26,11 @@ void swapme(listint_t *current, listint_t *current_old, listint_t **list)
 }
 
 /**
- * cocktail_sort_list - cocktail_sort_list
+ * cocktail_sort_list - The cocktail_sort_list algorithm
  *
  * @list: doubly linked list
  */
+
 void cocktail_sort_list(listint_t **list)
 {
 	listint_t *check = *list, *first = NULL, *last = NULL;
